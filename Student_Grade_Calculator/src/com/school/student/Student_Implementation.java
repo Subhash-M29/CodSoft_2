@@ -168,37 +168,4 @@ public void assignGrade() {
 }
 
 
-/*
-System.out.println("Enter a Marks");
-
-
-		//Scanner mark = new Scanner(input).useDelimiter("^[1]?[0-9]?[0-9]$");
-	    System.out.println("Enter a Tamil Mark");
-	    float tamil=scanner.nextFloat();
-	    
-	    System.out.println("Enter a English Mark");
-	    float english=scanner.nextFloat();
-	    
-	    System.out.println("Enter a computer Science Mark");
-	    float cs=scanner.nextFloat();
-	    
-	    System.out.println("Enter a Maths");
-	    float maths=scanner.nextFloat();
-	    
-	    System.out.println("Enter a Physics Marks");
-	    float physics=scanner.nextFloat();
-	    
-	    System.out.println("Enter a Chemistry Marks");
-	    float chemistry=scanner.nextFloat();
-		
-	   student.add(new StudentDetails(id,name,StudentDetails.getSchoolName(),(new Mark(tamil,english,cs,maths,physics,chemistry))));
-	    
-	     /*student.forEach((n->System.out.println(n)));
-	     
-	     System.out.println("Student Marks inserted");
-	   
-
-	    System.out.println("Total No of student record "+student.size());
-	}*/
-
 
