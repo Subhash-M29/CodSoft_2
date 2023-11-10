@@ -22,19 +22,16 @@ public class Student_Implementation  implements Student {
 
 	public void addStudentDetails() {
 	    
-		System.out.println("Enter a Student_ID");
-		String id=scanner.next();
+	    System.out.println("Enter a Student_ID");
+	    String id=scanner.next();
 		
-		System.out.println("Enter a Name");
+	    System.out.println("Enter a Name");
 	    String name=scanner.next();
 	  //  student.add(new StudentDetails(id,name,StudentDetails.getSchoolName(), null));
 	    System.out.println("Student Details Inserted");
 	    //Mark mark=addMarks();
 
-	    System.out.println("Enter a Marks");
-	  
-	    
-		//Scanner mark = new Scanner(input).useDelimiter("^[1]?[0-9]?[0-9]$");
+	    System.out.println("Enter a Marks");	
 	    System.out.println("Enter a Tamil Mark");
 	    float tamil=oneToHundred();;
 	    
@@ -53,7 +50,7 @@ public class Student_Implementation  implements Student {
 	    System.out.println("Enter a Chemistry Marks");
 	    float chemistry=oneToHundred();;
 		
-	   student.add(new StudentDetails(id,name,StudentDetails.getSchoolName(),(new Mark(tamil,english,cs,maths,physics,chemistry))));
+	    student.add(new StudentDetails(id,name,StudentDetails.getSchoolName(),(new Mark(tamil,english,cs,maths,physics,chemistry))));
 	    
 	     /*student.forEach((n->System.out.println(n)));*/
 	     
